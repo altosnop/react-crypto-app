@@ -21,6 +21,7 @@ export const CryptoContextProvider = ({ children }) => {
         growPercent: percentDiff(asset.price, coin.price),
         totalAmount: asset.amount * coin.price,
         totalProfit: asset.amount * coin.price - asset.amount - asset.price,
+        name: coin.name,
         ...asset,
       }
     })

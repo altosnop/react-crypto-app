@@ -4,7 +4,7 @@ export const fetchCrypto = () => {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(cryptoData)
-    }, 10)
+    }, 800)
   })
 }
 
@@ -12,6 +12,6 @@ export const fetchAssets = () => {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(cryptoAssets)
-    }, 10)
+    }, 800)
   })
 }
